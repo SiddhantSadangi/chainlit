@@ -97,7 +97,7 @@ function App() {
     if (isAuthenticated && accessToken === undefined) {
       getAccessTokenSilently({
         authorizationParams: {
-          audience: 'chainlit-cloud'
+          audience: 'chainlit-clod'
         }
       })
         .then((token) => setAccessToken(token))
